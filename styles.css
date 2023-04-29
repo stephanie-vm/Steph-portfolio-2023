@@ -255,11 +255,17 @@
             border-radius: 10px;
             gap: 2rem;
             margin: 3.75rem; }
-            @media (max-width: 600px) {
+            /* @media (max-width: 400px) {
+                .contact ul{
+                    margin-left: -41px;
+
+                }
+            } */
+            @media (max-width: 900px) {
             .contact {
                 flex-direction: row;
                 margin-left: -1.25rem;
-                width: 120%;
+                width: 110%;
             }
                 .contact h2 {
                 font-size: 3rem; } }
