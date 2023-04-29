@@ -257,10 +257,14 @@
             margin: 3.75rem; }
 
             @media (max-width: 900px) {
+            .nav {
+                height: 0px;
+            }
             .contact {
                 flex-direction: row;
                 margin-left: -0.25rem;
                 width: 112%;
+                margin-left: -16px;
             }
                 .contact h2 {
                 font-size: 3rem; } }
@@ -332,11 +336,10 @@
                 .nav__container {
                     display: none;
                 }
-            .quote {
-                flex-direction: column;
-            }
             .img1 {
-                width: 100%;
+                width: 116%;
+                margin-left: -20px;
+                height: 200px;
             }
             .about-me {
                 flex-direction: column;
@@ -348,6 +351,7 @@
             .about-me {
                 line-height: 30px;
                 width: 100%;
+                margin-left: -16px;
             }
             .projects {
                 flex-direction: column;
@@ -355,6 +359,7 @@
             .project-detail {
                 flex-direction: column;
                 width: 110%;
+                margin-left: -16px;
             }
             .list  li{
                 margin-bottom: 16px;
