@@ -303,11 +303,17 @@
             .contact-info {
                 width: 70%;
                 height: 24rem; 
-            
             } 
+            .contact-info p {
+                font-size: 16px;
+                color: #53221D;
+                }
             .contact-info img {
                 width: 15%;
                 height: 15%;
+            }
+            #correo {
+                font-size: 16px;
             }
         
         }
@@ -317,6 +323,9 @@
 
 
             @media (max-width:900px) {
+                .nav__container {
+                    display: none;
+                }
             .quote {
                 flex-direction: column;
             }
@@ -338,7 +347,7 @@
             }
             .project-detail {
                 flex-direction: column;
-                width: 100%;
+                width: 110%;
             }
             .list  li{
                 margin-bottom: 16px;
