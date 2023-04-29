@@ -255,17 +255,12 @@
             border-radius: 10px;
             gap: 2rem;
             margin: 3.75rem; }
-            /* @media (max-width: 400px) {
-                .contact ul{
-                    margin-left: -41px;
 
-                }
-            } */
             @media (max-width: 900px) {
             .contact {
                 flex-direction: row;
-                margin-left: -1.25rem;
-                width: 110%;
+                margin-left: 0.75rem;
+                width: 100%;
             }
                 .contact h2 {
                 font-size: 3rem; } }
@@ -304,6 +299,11 @@
             .contact-info li img {
             margin-right: 0.438rem; 
             margin-top: 15px;
+            }
+            @media (max-width: 600px) {
+                .contact ul{
+                    margin-left: -50px;
+                }
             }
             @media (max-width: 900px) {
             .contact-info {
